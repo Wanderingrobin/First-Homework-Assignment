@@ -45,6 +45,11 @@ namespace Day_One_Homework
 
             Console.WriteLine(myBookArray[2].bookTitle + ", " + myBookArray[2].bookAuthor + ", " + myBookArray[2].bookGenre + ", " + myBookArray[2].bookYear);
 
+            var v = new { Age = 29, MiddleName = "Robinzina", Order = 1, Parents = "Carla & Barry" };
+
+
+            Console.WriteLine(v.Age + ", " + v.MiddleName + ", " + v.Order + ", " + v.Parents);
+
             Console.ReadLine();
 
 
